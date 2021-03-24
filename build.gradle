@@ -29,6 +29,9 @@ dependencies {
     // https://mvnrepository.com/artifact/com.google.inject/guice
     // compile group: 'com.google.inject', name: 'guice', version: '4.2.2'
     pluginLibsCompile 'com.google.inject:guice:4.2.2'
+    // // https://mvnrepository.com/artifact/org.postgresql/postgresql
+    //implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.19'
+    pluginLibsCompile 'org.postgresql:postgresql:42.2.19'
 }
 
 task install {
