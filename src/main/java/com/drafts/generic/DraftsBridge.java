@@ -52,7 +52,7 @@ public class DraftsBridge implements Container, ComponentProvider {
 
     public GenericDelegator getDelegator() {
         if(delegator==null){
-            delegator = (GenericDelegator) DelegatorFactory.getDelegator(delegatorProp.value);
+            delegator = (GenericDelegator) DelegatorFactory.getDelegator(delegatorProp.value());
         }
         return delegator;
     }
