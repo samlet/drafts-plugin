@@ -32,6 +32,10 @@ dependencies {
     // // https://mvnrepository.com/artifact/org.postgresql/postgresql
     //implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.19'
     pluginLibsCompile 'org.postgresql:postgresql:42.2.19'
+
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+//    pluginLibsCompile 'mysql:mysql-connector-java:8.0.27'
+
 }
 
 task install {
